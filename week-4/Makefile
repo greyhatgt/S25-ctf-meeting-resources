@@ -5,7 +5,7 @@ SRC = data-bof.c
 all: $(TARGET)
 
 $(TARGET): $(SRC)
-	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
+	$(CC) $(CFLAGS) -g -o $(TARGET) $(SRC)
 
 clean:
 	rm -f $(TARGET)
